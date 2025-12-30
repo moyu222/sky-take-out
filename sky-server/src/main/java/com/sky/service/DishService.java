@@ -32,4 +32,6 @@ public interface DishService {
      * @return
      */
     List<DishVO> listWithFlavor(Dish dish);
+
+    void setStatus(Long id, Integer status);
 }
